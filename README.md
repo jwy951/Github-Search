@@ -3,7 +3,7 @@
 
 ## Author
 
-[Owiti-Charles](https://github.com/Owiti-Charles)
+Yegon Johnstone
 
 ## Description
 
@@ -11,10 +11,7 @@ This is Agular CLI application that allows a user to enter a GitHub username int
 
 ## Screenshot
 
-<img src= "https://raw.githubusercontent.com/Owiti-Charles/Git-Search/master/src/assets/screenshotgitsearch.png" width="900px" height="440px">
-
 ## Live Page 
-https://Owiti-charles.github.io/Git-Search/ 
 
 
 
@@ -49,7 +46,7 @@ Composed of two main components.
 * CSS
 * Bootstrap 
 * Typescript
-* Generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+* Generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.1.
 
 ## Known Bugs
 * No known bug now but pull requests are encouraged
