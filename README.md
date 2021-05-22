@@ -1,4 +1,4 @@
-<!-- # GitSearch
+# GitSearch
 
 
 ## Author
@@ -60,5 +60,4 @@ If you have any question or contributions, please email me at [johnstoneshylock@
 
 ## License
 * *MIT License:*
-* Copyright (c) 2021 **Yegon Johstone** -->
-
+* Copyright (c) 2021 **Yegon Johstone**
