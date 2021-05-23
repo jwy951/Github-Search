@@ -11,15 +11,41 @@
                 <img src="{{user.avatar_url}}" alt="">
               </div> 
               <div class="card-body">
-                  <span  class="name"><i class="fa fa-user" style="font-size:20px"></i> &nbsp;{{user.login}}</span> <a href="{{user.html_url}}"><button class="btn-outline-success btn btn-sm"><i class="fa fa-github" style="font-size:20px"></i> &nbsp; <span id="profile">Github</span> </button></a>
+                  <span  class="name"><i class="fa fa-user" style="font-size:20px"></i> &nbsp;{{user.login}}</span> <a href="{{user.html_url}}"><button class="btn-outline-success btn btn-sm"><i class="fa fa-github" style="font-size:20px"></i> &nbsp; <span id="profile">Github</span></button></a>
               </div>
             </div>
             </div>
-          <!-- <div class="col-sm-7 user">
+            
+          <div class="col-sm-7 user">
             <div class="card" appHighlight>
               <div class="card-body">
                 <h4>Git-Search: {{user.login}}</h4>
-                <hr>
+                <hr />
+                <div style="text-align: center">
+                  <p>Bio</p>
+                  <p>{{ user.bio }}</p>
+                </div>
+                <hr />
+                <div class="row">
+                  <div class="col-sm">
+                    <p>followers</p>
+                    {{ user.followers }}
+                  </div>
+                  <div class="col-sm">
+                    <p>following</p>
+                    {{ user.following }}
+                  </div>
+                  <div class="col-sm">
+                    <p>Email</p>
+                    {{ user.email }}
+                  </div>
+                  <div class="col-sm">
+                    <p>Location</p>
+                    {{ user.location }}
+                  </div>
+                </div>
+
+                <!-- <hr>
                 <p><i class="fa fa-file-o" style="font-size:18px"></i>&nbsp;&nbsp; Repositories:&nbsp;&nbsp; <span class="follow">{{user.public_repos}}</span></p>
                 <hr>
                 <p> <i class="fa fa-user" style="font-size:18px"></i>&nbsp;&nbsp; Following:&nbsp;&nbsp; <span class="follow">{{user.following}}</span></p>
@@ -27,10 +53,10 @@
                 <p> <i class="fa fa-users"style="font-size:18px"></i>&nbsp;&nbsp; Followers:&nbsp;&nbsp; <span class="follow">{{user.followers}}</span></p>
                 <hr>
                 <p><i class="fa fa-clock-o" style="font-size:18px"></i>&nbsp;&nbsp; Joined:&nbsp;&nbsp; <span class="datejoined">{{user.created_at | datePipe}}</span></p>
-                <hr>
+                <hr> -->
               </div>
             </div>  
-          </div> -->
+          </div> 
         </div> 
       </div>
       <!-- <div id="click" class="text-center">
