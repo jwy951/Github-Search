@@ -81,11 +81,11 @@ hr{
   padding-bottom: 30px; 
   /* animation-iteration-count: infinite; */
 }
-#mouse-click {
+/* #mouse-click {
   animation: bounce 2s infinite;
-}
+} */
 
-@keyframes bounce {
+/* @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
     transform: translateY(0);
   }
@@ -95,18 +95,18 @@ hr{
   60% {
     transform: translateY(-25px);
   }
-}
-#click img{
+} */
+/* #click img{
   width: 20px;
   height: 60px;
-}
-.follow{
-  border-radius: 50%;
+} */
+/* .follow{ */
+  /* border-radius: 50%;
   background-color: rgba(0, 0, 0, 0.555);
   padding: 1%;
   float: right;
   margin-right: 20%;
-}
+} */
 .datejoined{
   float: right;
   margin-right: 14%;
