@@ -10,9 +10,9 @@
               <div class="card-img-top">
                 <img src="{{user.avatar_url}}" alt="">
               </div> 
-              <div class="card-body">
+              <!-- <div class="card-body">
                   <span  class="name"><i class="fa fa-user" style="font-size:20px"></i> &nbsp;{{user.login}}</span> <a href="{{user.html_url}}"><button class="btn-outline-success btn btn-sm"><i class="fa fa-github" style="font-size:20px"></i> &nbsp; <span id="profile">Github</span></button></a>
-              </div>
+              </div> -->
             </div>
             </div>
             
@@ -20,7 +20,7 @@
             <div class="card" appHighlight>
               <!-- <div class="card-body"> -->
                
-                <!-- <div style="text-align: center">
+                <div style="text-align: center">
                   <p>Bio</p>
                   <p>{{ user.bio }}</p>
                 </div>
@@ -42,7 +42,7 @@
                     <p>Location</p>
                     {{ user.location }}
                   </div>
-                </div> --> 
+                </div> 
 
                 <!-- <hr>
                 <p><i class="fa fa-file-o" style="font-size:18px"></i>&nbsp;&nbsp; Repositories:&nbsp;&nbsp; <span class="follow">{{user.public_repos}}</span></p>
@@ -59,10 +59,10 @@
         </div> 
       </div>
 
-      <!-- <div id="click" class="text-center">
+      <div id="click" class="text-center">
         <a href="#reps"><link src="https://api.github.com/users/jwy951?access_token="></a>
       </div> 
-       -->
+      
       <div class="text-center repos" id="reps">
           <h2>Repositories</h2>
         </div>
